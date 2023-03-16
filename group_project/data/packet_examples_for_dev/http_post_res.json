@@ -1,0 +1,172 @@
+[
+  {
+    "_index": "packets-XXXX-XX-XX",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "14008028025797502278,india",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "14008028025797502278,india",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "7",
+          "frame.time": "Not representable",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1751247145.459727000",
+          "frame.time_delta": "4294.395802000",
+          "frame.time_delta_displayed": "4294.395802000",
+          "frame.time_relative": "-1082739780.294008000",
+          "frame.number": "6938",
+          "frame.len": "297",
+          "frame.cap_len": "297",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "raw:ip:tcp:http",
+          "frame.coloring_rule.name": "HTTP",
+          "frame.coloring_rule.string": "http || tcp.port == 80 || http2"
+        },
+        "raw": "Raw packet data",
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "297",
+          "ip.id": "0x00005d41",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "64",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000e950",
+          "ip.checksum.status": "2",
+          "ip.src": "54.243.176.60",
+          "ip.addr": "54.243.176.60",
+          "ip.src_host": "appnext-722476687.us-east-1.elb.amazonaws.com",
+          "ip.host": "appnext-722476687.us-east-1.elb.amazonaws.com",
+          "ip.dst": "10.11.2.3",
+          "ip.addr": "10.11.2.3",
+          "ip.dst_host": "10.11.2.3",
+          "ip.host": "10.11.2.3"
+        },
+        "tcp": {
+          "tcp.srcport": "80",
+          "tcp.dstport": "60254",
+          "tcp.port": "80",
+          "tcp.port": "60254",
+          "tcp.stream": "874",
+          "tcp.len": "245",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2083183468",
+          "tcp.nxtseq": "246",
+          "tcp.ack": "369",
+          "tcp.ack_raw": "167971257",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "235",
+          "tcp.window_size": "30080",
+          "tcp.window_size_scalefactor": "128",
+          "tcp.checksum": "0x00009312",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:42:a1:86:97:00:97:79:44",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:42:a1:86:97:00:97:79:44",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "1117882007",
+              "tcp.options.timestamp.tsecr": "9926980"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.308791000",
+            "tcp.analysis.bytes_in_flight": "245",
+            "tcp.analysis.push_bytes_sent": "245"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "4294.704661000",
+            "tcp.time_delta": "4294.395818000"
+          },
+          "tcp.payload": "48:54:54:50:2f:31:2e:31:20:32:30:30:20:4f:4b:0d:0a:41:63:63:65:73:73:2d:43:6f:6e:74:72:6f:6c:2d:41:6c:6c:6f:77:2d:4f:72:69:67:69:6e:3a:20:2a:0d:0a:43:61:63:68:65:2d:43:6f:6e:74:72:6f:6c:3a:20:70:72:69:76:61:74:65:2c:20:6d:61:78:2d:61:67:65:3d:30:0d:0a:44:61:74:65:3a:20:54:68:75:2c:20:31:34:20:53:65:70:20:32:30:31:37:20:31:36:3a:34:39:3a:30:33:20:47:4d:54:0d:0a:53:65:72:76:65:72:3a:20:4d:69:63:72:6f:73:6f:66:74:2d:49:49:53:2f:37:2e:35:0d:0a:58:2d:41:73:70:4e:65:74:2d:56:65:72:73:69:6f:6e:3a:20:34:2e:30:2e:33:30:33:31:39:0d:0a:58:2d:50:6f:77:65:72:65:64:2d:42:79:3a:20:41:53:50:2e:4e:45:54:0d:0a:43:6f:6e:74:65:6e:74:2d:4c:65:6e:67:74:68:3a:20:30:0d:0a:43:6f:6e:6e:65:63:74:69:6f:6e:3a:20:6b:65:65:70:2d:61:6c:69:76:65:0d:0a:0d:0a"
+        },
+        "http": {
+          "HTTP/1.1 200 OK\\r\\n": {
+            "_ws.expert": {
+              "http.chat": "",
+              "_ws.expert.message": "HTTP/1.1 200 OK\\r\\n",
+              "_ws.expert.severity": "2097152",
+              "_ws.expert.group": "33554432"
+            },
+            "http.response.version": "HTTP/1.1",
+            "http.response.code": "200",
+            "http.response.code.desc": "OK",
+            "http.response.phrase": "OK"
+          },
+          "http.response.line": "Access-Control-Allow-Origin: *\r\n",
+          "http.cache_control": "private, max-age=0",
+          "http.response.line": "Cache-Control: private, max-age=0\r\n",
+          "http.date": "Thu, 14 Sep 2017 16:49:03 GMT",
+          "http.response.line": "Date: Thu, 14 Sep 2017 16:49:03 GMT\r\n",
+          "http.server": "Microsoft-IIS/7.5",
+          "http.response.line": "Server: Microsoft-IIS/7.5\r\n",
+          "http.response.line": "X-AspNet-Version: 4.0.30319\r\n",
+          "http.response.line": "X-Powered-By: ASP.NET\r\n",
+          "http.content_length_header": "0",
+          "http.content_length_header_tree": {
+            "http.content_length": "0"
+          },
+          "http.response.line": "Content-Length: 0\r\n",
+          "http.connection": "keep-alive",
+          "http.response.line": "Connection: keep-alive\r\n",
+          "\\r\\n": "",
+          "http.response": "1",
+          "http.response_number": "1",
+          "http.time": "4294.395865000",
+          "http.request_in": "6934",
+          "http.response_for.uri": "http://admin.appnext.com/mobileservice.asmx/SetAppPermission"
+        }
+      }
+    }
+  }
+]

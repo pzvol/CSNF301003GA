@@ -1,0 +1,90 @@
+[
+  {
+    "_index": "packets-XXXX-XX-XX",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "15370497096174526633,china",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "15370497096174526633,china",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "7",
+          "frame.time": "Not representable",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613765242.553046000",
+          "frame.time_delta": "0.047827000",
+          "frame.time_delta_displayed": "0.047827000",
+          "frame.time_relative": "-1220221683.200689000",
+          "frame.number": "1324",
+          "frame.len": "84",
+          "frame.cap_len": "84",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "raw:ip:icmp:data",
+          "frame.coloring_rule.name": "ICMP",
+          "frame.coloring_rule.string": "icmp || icmpv6"
+        },
+        "raw": "Raw packet data",
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "84",
+          "ip.id": "0x00002764",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "41",
+          "ip.proto": "1",
+          "ip.checksum": "0x0000a1c3",
+          "ip.checksum.status": "2",
+          "ip.src": "114.80.10.33",
+          "ip.addr": "114.80.10.33",
+          "ip.src_host": "114.80.10.33",
+          "ip.host": "114.80.10.33",
+          "ip.dst": "10.11.2.6",
+          "ip.addr": "10.11.2.6",
+          "ip.dst_host": "10.11.2.6",
+          "ip.host": "10.11.2.6"
+        },
+        "icmp": {
+          "icmp.type": "0",
+          "icmp.code": "0",
+          "icmp.checksum": "0x0000835b",
+          "icmp.checksum.status": "1",
+          "icmp.ident": "237",
+          "icmp.ident": "60672",
+          "icmp.seq": "1",
+          "icmp.seq_le": "256",
+          "icmp.resp_to": "1312",
+          "icmp.resptime": "349.566",
+          "data": {
+            "data.data": "f4:35:ba:59:d4:23:0e:00:08:09:0a:0b:0c:0d:0e:0f:10:11:12:13:14:15:16:17:18:19:1a:1b:1c:1d:1e:1f:20:21:22:23:24:25:26:27:28:29:2a:2b:2c:2d:2e:2f:30:31:32:33:34:35:36:37",
+            "data.len": "56"
+          }
+        }
+      }
+    }
+  }
+]

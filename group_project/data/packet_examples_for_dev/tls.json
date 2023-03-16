@@ -1,0 +1,288 @@
+[
+  {
+    "_index": "packets-XXXX-XX-XX",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "13682128230572000042,china",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "13682128230572000042,china",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "7",
+          "frame.time": "Not representable",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "-1460980370.172929000",
+          "frame.time_delta": "0.005722000",
+          "frame.time_delta_displayed": "0.005722000",
+          "frame.time_relative": "0.419194000",
+          "frame.number": "24",
+          "frame.len": "254",
+          "frame.cap_len": "254",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "raw:ip:tcp:tls",
+          "frame.coloring_rule.name": "TCP",
+          "frame.coloring_rule.string": "tcp"
+        },
+        "raw": "Raw packet data",
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "254",
+          "ip.id": "0x0000489f",
+          "ip.flags": "0x00004000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "1",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "6",
+          "ip.checksum": "0x0000844d",
+          "ip.checksum.status": "2",
+          "ip.src": "10.11.1.3",
+          "ip.addr": "10.11.1.3",
+          "ip.src_host": "10.11.1.3",
+          "ip.host": "10.11.1.3",
+          "ip.dst": "203.205.151.50",
+          "ip.addr": "203.205.151.50",
+          "ip.dst_host": "fusion.qq.com",
+          "ip.host": "fusion.qq.com"
+        },
+        "tcp": {
+          "tcp.srcport": "51069",
+          "tcp.dstport": "443",
+          "tcp.port": "51069",
+          "tcp.port": "443",
+          "tcp.stream": "1",
+          "tcp.len": "202",
+          "tcp.seq": "1",
+          "tcp.seq_raw": "2651897283",
+          "tcp.nxtseq": "203",
+          "tcp.ack": "1",
+          "tcp.ack_raw": "444271453",
+          "tcp.hdr_len": "32",
+          "tcp.flags": "0x00000018",
+          "tcp.flags_tree": {
+            "tcp.flags.res": "0",
+            "tcp.flags.ns": "0",
+            "tcp.flags.cwr": "0",
+            "tcp.flags.ecn": "0",
+            "tcp.flags.urg": "0",
+            "tcp.flags.ack": "1",
+            "tcp.flags.push": "1",
+            "tcp.flags.reset": "0",
+            "tcp.flags.syn": "0",
+            "tcp.flags.fin": "0",
+            "tcp.flags.str": "·······AP···"
+          },
+          "tcp.window_size_value": "4106",
+          "tcp.window_size": "131392",
+          "tcp.window_size_scalefactor": "32",
+          "tcp.checksum": "0x0000293a",
+          "tcp.checksum.status": "2",
+          "tcp.urgent_pointer": "0",
+          "tcp.options": "01:01:08:0a:19:36:10:1f:9a:f8:ce:8b",
+          "tcp.options_tree": {
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.nop": "01",
+            "tcp.options.nop_tree": {
+              "tcp.option_kind": "1"
+            },
+            "tcp.options.timestamp": "08:0a:19:36:10:1f:9a:f8:ce:8b",
+            "tcp.options.timestamp_tree": {
+              "tcp.option_kind": "8",
+              "tcp.option_len": "10",
+              "tcp.options.timestamp.tsval": "422973471",
+              "tcp.options.timestamp.tsecr": "2599997067"
+            }
+          },
+          "tcp.analysis": {
+            "tcp.analysis.initial_rtt": "0.086382000",
+            "tcp.analysis.bytes_in_flight": "202",
+            "tcp.analysis.push_bytes_sent": "202"
+          },
+          "Timestamps": {
+            "tcp.time_relative": "0.092104000",
+            "tcp.time_delta": "0.005722000"
+          },
+          "tcp.payload": "16:03:01:00:c5:01:00:00:c1:03:03:59:cd:cd:ff:01:3a:ee:85:df:bc:a3:e8:97:94:0b:64:34:18:12:c2:e3:54:27:c2:7c:8e:a5:90:76:99:70:fd:00:00:26:00:ff:c0:2c:c0:2b:c0:24:c0:23:c0:0a:c0:09:c0:30:c0:2f:c0:28:c0:27:c0:14:c0:13:00:9d:00:9c:00:3d:00:3c:00:35:00:2f:01:00:00:72:00:00:00:12:00:10:00:00:0d:66:75:73:69:6f:6e:2e:71:71:2e:63:6f:6d:00:0a:00:08:00:06:00:17:00:18:00:19:00:0b:00:02:01:00:00:0d:00:12:00:10:04:01:02:01:05:01:06:01:04:03:02:03:05:03:06:03:33:74:00:00:00:10:00:1b:00:19:08:73:70:64:79:2f:33:2e:31:06:73:70:64:79:2f:33:08:68:74:74:70:2f:31:2e:31:00:05:00:05:01:00:00:00:00:00:12:00:00:00:17:00:00"
+        },
+        "tls": {
+          "tls.record": {
+            "tls.record.content_type": "22",
+            "tls.record.version": "0x00000301",
+            "tls.record.length": "197",
+            "tls.handshake": {
+              "tls.handshake.type": "1",
+              "tls.handshake.length": "193",
+              "tls.handshake.version": "0x00000303",
+              "tls.handshake.random": "59:cd:cd:ff:01:3a:ee:85:df:bc:a3:e8:97:94:0b:64:34:18:12:c2:e3:54:27:c2:7c:8e:a5:90:76:99:70:fd",
+              "tls.handshake.random_tree": {
+                "tls.handshake.random_time": "Sep 29, 2017 12:37:19.000000000 中国标准时间",
+                "tls.handshake.random_bytes": "01:3a:ee:85:df:bc:a3:e8:97:94:0b:64:34:18:12:c2:e3:54:27:c2:7c:8e:a5:90:76:99:70:fd"
+              },
+              "tls.handshake.session_id_length": "0",
+              "tls.handshake.cipher_suites_length": "38",
+              "tls.handshake.ciphersuites": {
+                "tls.handshake.ciphersuite": "255",
+                "tls.handshake.ciphersuite": "49196",
+                "tls.handshake.ciphersuite": "49195",
+                "tls.handshake.ciphersuite": "49188",
+                "tls.handshake.ciphersuite": "49187",
+                "tls.handshake.ciphersuite": "49162",
+                "tls.handshake.ciphersuite": "49161",
+                "tls.handshake.ciphersuite": "49200",
+                "tls.handshake.ciphersuite": "49199",
+                "tls.handshake.ciphersuite": "49192",
+                "tls.handshake.ciphersuite": "49191",
+                "tls.handshake.ciphersuite": "49172",
+                "tls.handshake.ciphersuite": "49171",
+                "tls.handshake.ciphersuite": "157",
+                "tls.handshake.ciphersuite": "156",
+                "tls.handshake.ciphersuite": "61",
+                "tls.handshake.ciphersuite": "60",
+                "tls.handshake.ciphersuite": "53",
+                "tls.handshake.ciphersuite": "47"
+              },
+              "tls.handshake.comp_methods_length": "1",
+              "tls.handshake.comp_methods": {
+                "tls.handshake.comp_method": "0"
+              },
+              "tls.handshake.extensions_length": "114",
+              "Extension: server_name (len=18)": {
+                "tls.handshake.extension.type": "0",
+                "tls.handshake.extension.len": "18",
+                "Server Name Indication extension": {
+                  "tls.handshake.extensions_server_name_list_len": "16",
+                  "tls.handshake.extensions_server_name_type": "0",
+                  "tls.handshake.extensions_server_name_len": "13",
+                  "tls.handshake.extensions_server_name": "fusion.qq.com"
+                }
+              },
+              "Extension: supported_groups (len=8)": {
+                "tls.handshake.extension.type": "10",
+                "tls.handshake.extension.len": "8",
+                "tls.handshake.extensions_supported_groups_length": "6",
+                "tls.handshake.extensions_supported_groups": {
+                  "tls.handshake.extensions_supported_group": "0x00000017",
+                  "tls.handshake.extensions_supported_group": "0x00000018",
+                  "tls.handshake.extensions_supported_group": "0x00000019"
+                }
+              },
+              "Extension: ec_point_formats (len=2)": {
+                "tls.handshake.extension.type": "11",
+                "tls.handshake.extension.len": "2",
+                "tls.handshake.extensions_ec_point_formats_length": "1",
+                "tls.handshake.extensions_ec_point_formats": {
+                  "tls.handshake.extensions_ec_point_format": "0"
+                }
+              },
+              "Extension: signature_algorithms (len=18)": {
+                "tls.handshake.extension.type": "13",
+                "tls.handshake.extension.len": "18",
+                "tls.handshake.sig_hash_alg_len": "16",
+                "tls.handshake.sig_hash_algs": {
+                  "tls.handshake.sig_hash_alg": "0x00000401",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x00000201",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x00000501",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x00000601",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "1"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x00000403",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "4",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x00000203",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "2",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x00000503",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "5",
+                    "tls.handshake.sig_hash_sig": "3"
+                  },
+                  "tls.handshake.sig_hash_alg": "0x00000603",
+                  "tls.handshake.sig_hash_alg_tree": {
+                    "tls.handshake.sig_hash_hash": "6",
+                    "tls.handshake.sig_hash_sig": "3"
+                  }
+                }
+              },
+              "Extension: next_protocol_negotiation (len=0)": {
+                "tls.handshake.extension.type": "13172",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: application_layer_protocol_negotiation (len=27)": {
+                "tls.handshake.extension.type": "16",
+                "tls.handshake.extension.len": "27",
+                "tls.handshake.extensions_alpn_len": "25",
+                "tls.handshake.extensions_alpn_list": {
+                  "tls.handshake.extensions_alpn_str_len": "8",
+                  "tls.handshake.extensions_alpn_str": "spdy/3.1",
+                  "tls.handshake.extensions_alpn_str_len": "6",
+                  "tls.handshake.extensions_alpn_str": "spdy/3",
+                  "tls.handshake.extensions_alpn_str_len": "8",
+                  "tls.handshake.extensions_alpn_str": "http/1.1"
+                }
+              },
+              "Extension: status_request (len=5)": {
+                "tls.handshake.extension.type": "5",
+                "tls.handshake.extension.len": "5",
+                "tls.handshake.extensions_status_request_type": "1",
+                "tls.handshake.extensions_status_request_responder_ids_len": "0",
+                "tls.handshake.extensions_status_request_exts_len": "0"
+              },
+              "Extension: signed_certificate_timestamp (len=0)": {
+                "tls.handshake.extension.type": "18",
+                "tls.handshake.extension.len": "0"
+              },
+              "Extension: extended_master_secret (len=0)": {
+                "tls.handshake.extension.type": "23",
+                "tls.handshake.extension.len": "0"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

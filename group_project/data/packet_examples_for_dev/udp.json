@@ -1,0 +1,92 @@
+[
+  {
+    "_index": "packets-XXXX-XX-XX",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "pkt_comment": {
+          "frame.comment": "6006096609485252315,china",
+          "frame.comment_tree": {
+            "_ws.expert": {
+              "frame.comment.expert": "",
+              "_ws.expert.message": "6006096609485252315,china",
+              "_ws.expert.severity": "1048576",
+              "_ws.expert.group": "184549376"
+            }
+          }
+        },
+        "frame": {
+          "frame.interface_id": "0",
+          "frame.interface_id_tree": {
+            "frame.interface_name": "unknown"
+          },
+          "frame.encap_type": "7",
+          "frame.time": "Not representable",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "-1938430409.148496000",
+          "frame.time_delta": "0.026791000",
+          "frame.time_delta_displayed": "0.026791000",
+          "frame.time_relative": "-477450038.605239000",
+          "frame.number": "174",
+          "frame.len": "134",
+          "frame.cap_len": "134",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "raw:ip:udp:data",
+          "frame.coloring_rule.name": "UDP",
+          "frame.coloring_rule.string": "udp"
+        },
+        "raw": "Raw packet data",
+        "ip": {
+          "ip.version": "4",
+          "ip.hdr_len": "20",
+          "ip.dsfield": "0x00000000",
+          "ip.dsfield_tree": {
+            "ip.dsfield.dscp": "0",
+            "ip.dsfield.ecn": "0"
+          },
+          "ip.len": "134",
+          "ip.id": "0x0000e78c",
+          "ip.flags": "0x00000000",
+          "ip.flags_tree": {
+            "ip.flags.rb": "0",
+            "ip.flags.df": "0",
+            "ip.flags.mf": "0"
+          },
+          "ip.frag_offset": "0",
+          "ip.ttl": "63",
+          "ip.proto": "17",
+          "ip.checksum": "0x0000799b",
+          "ip.checksum.status": "2",
+          "ip.src": "10.11.1.3",
+          "ip.addr": "10.11.1.3",
+          "ip.src_host": "10.11.1.3",
+          "ip.host": "10.11.1.3",
+          "ip.dst": "220.170.50.135",
+          "ip.addr": "220.170.50.135",
+          "ip.dst_host": "220.170.50.135",
+          "ip.host": "220.170.50.135"
+        },
+        "udp": {
+          "udp.srcport": "62066",
+          "udp.dstport": "23",
+          "udp.port": "62066",
+          "udp.port": "23",
+          "udp.length": "114",
+          "udp.checksum": "0x00009641",
+          "udp.checksum.status": "2",
+          "udp.stream": "41",
+          "Timestamps": {
+            "udp.time_relative": "0.000000000",
+            "udp.time_delta": "0.000000000"
+          }
+        },
+        "data": {
+          "data.data": "6a:00:00:00:1e:73:00:00:c8:00:00:00:00:00:00:00:00:00:03:01:00:00:00:00:00:00:20:00:35:65:63:66:61:38:36:66:31:38:63:64:61:34:34:30:62:32:64:62:63:31:63:34:32:66:39:33:33:66:62:62:d9:4d:39:78:0b:00:79:79:6d:69:70:5f:37:2e:30:2e:33:05:00:79:79:6d:69:70:00:00:00:00:00:00:00:00:00:00:09:e6:03:1b:00:00:00:00:00:00:00:00",
+          "data.len": "106"
+        }
+      }
+    }
+  }
+]
